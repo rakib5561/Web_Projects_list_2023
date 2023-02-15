@@ -1,0 +1,194 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 75%;
+  margin: 0 auto;
+  padding: 0px 40px;
+}
+
+.cv-wrapper {
+  margin: 10px 0px;
+  /* padding: 20px 0px; */
+}
+
+.cv-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.cv-side-content {
+  width: 40%;
+  /* height: 100vh; */
+  background-color: #005c85;
+  padding: 40px;
+  color: white;
+  text-align: center;
+}
+.person-img {
+  width: 250px;
+  margin: 0 auto;
+}
+.cv-side-content img {
+  width: 180px;
+  height: 200px;
+  margin: 0 auto;
+  text-align: center;
+  border-radius: 50%;
+  border: 5px solid white;
+}
+
+.contact {
+  text-align: left;
+  line-height: 30px;
+}
+.contact h1,
+.language h1 {
+  font-size: 32px;
+  text-transform: uppercase;
+  margin-top: 40px;
+  padding-bottom: 10px;
+  border-bottom: 4px solid white;
+}
+.contact p,
+span {
+  margin-top: 20px;
+  padding-left: 30px;
+  line-height: 26px;
+  font-size: 18px;
+}
+
+/* Skills style */
+.progress-bar-container {
+  padding-left: 30px;
+  line-height: 5px;
+  margin: 50px 0px;
+}
+
+.single-progress-bar {
+  margin-top: 25px;
+}
+
+.single-progress-bar label {
+  font-size: 18px;
+  text-transform: uppercase;
+}
+
+.single-progress-bar progress {
+  width: 100%;
+  padding: 20px 0px;
+}
+
+/* Start Language style */
+.language {
+  text-align: left;
+  font-size: 18px;
+}
+
+.language ul {
+  margin-top: 20px;
+  line-height: 30px;
+  padding-left: 30px;
+}
+
+/* CV Main Content Style */
+.cv-main-content {
+  width: 60%;
+  padding: 0px 50px;
+  text-align: center;
+  background-color: #f5f5f5;
+}
+
+.line {
+  width: 180px;
+  height: 4px;
+  background-color: grey;
+  margin: 0 auto;
+  border-radius: 2px;
+}
+
+.left-side-line {
+  width: 180px;
+  height: 4px;
+  background-color: grey;
+  border-radius: 2px;
+  margin-bottom: 15px;
+}
+
+/* CV main part */
+.content-header {
+  padding: 80px 10px;
+}
+.content-header h1 {
+  font-size: 46px;
+  text-transform: uppercase;
+  line-height: 45px;
+  padding-bottom: 8px;
+}
+.content-header h3 {
+  text-transform: uppercase;
+  padding-top: 10px;
+}
+.cv-summery {
+  text-align: left;
+}
+
+.cv-summery h2,
+.cv-experiance h2,
+.cv-project h2,
+.cv-education h2 {
+  color: #005c85;
+  font-size: 28px;
+  text-transform: uppercase;
+  line-height: 45px;
+  padding-bottom: 8px;
+  text-align: left;
+  margin-top: 40px;
+}
+
+.cv-summery ul li {
+  padding: 7px 0px;
+  line-height: 26px;
+  margin-left: 40px;
+}
+.cv-experiance {
+  text-align: left;
+}
+
+.cv-experiance h3 {
+  font-size: 20px;
+  text-transform: uppercase;
+}
+
+.cv-project {
+  text-align: left;
+}
+.project-item {
+  margin-left: 20px;
+  padding-bottom: 40px;
+}
+
+.des-list {
+  margin-left: 40px;
+}
+
+.project-item h4 {
+  font-size: 20px;
+  text-transform: uppercase;
+  padding: 20px 0px;
+}
+
+.educatin-details {
+  text-align: left;
+  padding-left: 20px;
+  padding-bottom: 80px;
+}
+
+.educatin-details h3 {
+  font-size: 20px;
+  text-transform: uppercase;
+  padding: 10px 0px;
+}
